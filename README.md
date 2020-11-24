@@ -9,10 +9,10 @@ background scripts (background.js): "running in the background of the chrome bro
     "persistent" : false
   }
 ```
-content scripts: interact with the DOM. These can read pages that the broswer visits, and can make changes to them and pass along information to the extension.
+content scripts: interact with the DOM. These can read pages that the browser visits, and can make changes to them and pass along information to the extension.
 popup (popup.js): view, starts background page by calling runtime.getBackgroundPage .
-options page: 
 
+options page: used to provide customization options to the user for the extension. ex. allow them to change the theme colours for the extension. For more information: ``` https://developer.chrome.com/extensions/options ```
 
 Debugging Chrome extensions: ``` https://developer.chrome.com/extensions/tut_debugging```
 
